@@ -1,0 +1,239 @@
+{
+   
+      "tasks": [
+        {
+          "task_id": "task-001",
+          "title": "Project Planning",
+          "description": "Define project scope, objectives, and deliverables.",
+          "status": "Completed",
+          "priority": "High",
+          "due_date": "2024-08-25T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-101",
+              "name": "Project Manager"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-001",
+              "title": "Define project goals",
+              "status": "Completed"
+            },
+            {
+              "subtask_id": "subtask-002",
+              "title": "Create project timeline",
+              "status": "Completed"
+            },
+            {
+              "subtask_id": "subtask-003",
+              "title": "Identify resources and team",
+              "status": "Completed"
+            }
+          ],
+          "comments": [
+            {
+              "comment_id": "comment-001",
+              "user_id": "user-101",
+              "content": "Project planning completed successfully.",
+              "timestamp": "2024-08-25T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "task_id": "task-002",
+          "title": "Website Design",
+          "description": "Design the layout and user interface of the website.",
+          "status": "In Progress",
+          "priority": "High",
+          "due_date": "2024-09-01T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-102",
+              "name": "UI/UX Designer"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-004",
+              "title": "Create wireframes",
+              "status": "Completed"
+            },
+            {
+              "subtask_id": "subtask-005",
+              "title": "Design homepage",
+              "status": "In Progress"
+            },
+            {
+              "subtask_id": "subtask-006",
+              "title": "Design inner pages",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-007",
+              "title": "Get client approval",
+              "status": "Not Started"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "task_id": "task-003",
+          "title": "Website Development",
+          "description": "Develop the website based on the approved design.",
+          "status": "Not Started",
+          "priority": "High",
+          "due_date": "2024-09-15T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-103",
+              "name": "Front-end Developer"
+            },
+            {
+              "user_id": "user-104",
+              "name": "Back-end Developer"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-008",
+              "title": "Set up development environment",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-009",
+              "title": "Develop homepage",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-010",
+              "title": "Develop inner pages",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-011",
+              "title": "Integrate CMS",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-012",
+              "title": "Test and debug",
+              "status": "Not Started"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "task_id": "task-004",
+          "title": "Content Creation",
+          "description": "Write and optimize content for the website.",
+          "status": "Not Started",
+          "priority": "Medium",
+          "due_date": "2024-09-10T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-105",
+              "name": "Content Writer"
+            },
+            {
+              "user_id": "user-106",
+              "name": "SEO Specialist"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-013",
+              "title": "Write homepage content",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-014",
+              "title": "Write inner page content",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-015",
+              "title": "Optimize content for SEO",
+              "status": "Not Started"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "task_id": "task-005",
+          "title": "Testing & QA",
+          "description": "Test the website for functionality, compatibility, and performance.",
+          "status": "Not Started",
+          "priority": "High",
+          "due_date": "2024-09-20T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-107",
+              "name": "QA Engineer"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-016",
+              "title": "Cross-browser testing",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-017",
+              "title": "Mobile responsiveness testing",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-018",
+              "title": "Performance testing",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-019",
+              "title": "Bug fixing",
+              "status": "Not Started"
+            }
+          ],
+          "comments": []
+        },
+        {
+          "task_id": "task-006",
+          "title": "Website Deployment",
+          "description": "Deploy the website to the live server and configure settings.",
+          "status": "Not Started",
+          "priority": "High",
+          "due_date": "2024-09-25T00:00:00Z",
+          "assigned_to": [
+            {
+              "user_id": "user-108",
+              "name": "DevOps Engineer"
+            }
+          ],
+          "subtasks": [
+            {
+              "subtask_id": "subtask-020",
+              "title": "Set up hosting",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-021",
+              "title": "Deploy website",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-022",
+              "title": "Configure domain and SSL",
+              "status": "Not Started"
+            },
+            {
+              "subtask_id": "subtask-023",
+              "title": "Final testing on live server",
+              "status": "Not Started"
+            }
+          ],
+          "comments": []
+        }
+      ]
+    
+  }
+  
