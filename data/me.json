@@ -1,0 +1,11 @@
+{
+    "name": "Mg Mg",
+    "age": 20,
+    "address": "Yangon",
+    "phone": "096-555-5555",
+    "skills" : [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ]
+}
